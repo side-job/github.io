@@ -97,7 +97,7 @@ body {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background: url(https://illust8.com/wp-content/uploads/2018/08/mark_check_illust_1104.png) no-repeat;
+	background: url("mark_check_illust_1104.png") no-repeat;/*画像はこちらです*/
 	background-size: contain;
 }
 .primary-wrapper p span {
@@ -146,6 +146,7 @@ body {
 	margin-top: 60px;
 	margin-right: 40px;
 	opacity: 0.8;
+	border-radius: 30%;
 }
 .content-container {
 	width: 60%;
@@ -179,7 +180,7 @@ body {
 
 }
 .top-wrapper {
-	background-image: url("http://giverayano.com/wp-content/uploads/2019/08/190364ef5dc7fb85502b-1.jpg");
+	background-image: url("image(8).jpg");/*画像はこちらです*/
 	background-size: cover;
 	height: auto;
 	width: 100%;
@@ -219,6 +220,13 @@ body {
 	margin-top:0px;
 	background-color:rgba(174,168,171,0.1);
 	display: flex;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: 1px solid rgba(174,168,171,0.1);
+	border-radius: 15%;
+
+
 	
 
 }
@@ -231,6 +239,7 @@ body {
 	line-height: 100px;
 	float: right;
 	padding-top: 20%;
+	padding-left: 40%;
 
 }
 .main-container img {
@@ -243,7 +252,7 @@ body {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background: url(https://illust8.com/wp-content/uploads/2018/08/mark_check_illust_1104.png) no-repeat;
+	background: url("mark_check_illust_1104.png") no-repeat;/*画像はこちらです*/
 	background-size: contain;
 }
 .content-wrapper span {
@@ -291,6 +300,16 @@ body {
 	margin-bottom: 30px;
 	margin-right: 20px;
 }
+.customer-one span {
+	background: linear-gradient(transparent 50%,yellow 50%);
+}
+.customer-two span {
+	background: linear-gradient(transparent 50%,yellow 50%);
+}
+.customer-three span {
+	background: linear-gradient(transparent 50%,yellow 50%);
+}
+
 .customer-name h3 {
 	
 }
