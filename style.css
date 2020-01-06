@@ -100,30 +100,7 @@ body {
 	background: url("mark_check_illust_1104.png") no-repeat;/*画像はこちらです*/
 	background-size: contain;
 }
-.primary-wrapper p span {
-	color: red;
-}
-.primary-wrapper h2 span {
-	color: red;
-	font-style: italic;
-	font-size: 40px; 
-}
-.primary-wrapper h2 {
-	font-weight: normal;
-}
 
-.primary-wrapper p {
-	font-size: 25px;
-    line-height: 60px;
-
-}
-.primary-wrapper {
-	text-align: left;
-	padding:0 auto;
-	width: 60%;
-	margin: 0 auto;
-
-}
 .primary-container {
     background-color: rgba(174,168,171,0.1);
     height: auto;
@@ -133,6 +110,17 @@ body {
     border: 1px solid red;
 }
 
+.primary-text span {
+	color: red;
+}
+.primary-text {
+	width: 80%;
+	margin: 0 auto;
+}
+.primary p {
+	text-align: center;
+
+}
 .primary-container ul {
 	list-style-type: none;
 	font-size: 35px;
@@ -332,12 +320,17 @@ body {
 	margin-right: 20px;
 }
 .form-text {
-	width: 60%;
+	width: 90%;
 	margin: 0 auto;
+	text-align: center;
 }
 .form-text p {
 	font-size: 22px;
 	line-height: 60px;
+	display: inline-block;
+	border: 1px solid rgba(174,168,171,0.1);
+	border-radius: 5px;
+
 }
 .form-text span {
 	font-size: 40px;
@@ -469,10 +462,11 @@ font-weight: bold;
 	
 }
 .summry-container {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 	font-size: 18px;
-	text-align: left;
+	text-align: center;
+	
 }
 .summry-icon {
 	width: 70%;
@@ -501,6 +495,8 @@ font-weight: bold;
 .summry-container p {
 	margin-bottom: 0;
 	line-height: 60px;
+	display: inline-block;
+	text-align: left;
 }
 .summry-containers span{
 	color: red;
