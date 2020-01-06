@@ -180,7 +180,7 @@ body {
 
 }
 .top-wrapper {
-	background-image: url("image(8).jpg");/*画像はこちらです*/
+	background-image: url("https://github.com/side-job/github.io/blob/master/%E7%94%BB%E5%83%8F/image(8).jpg?raw=true");/*画像はこちらです*/
 	background-size: cover;
 	height: auto;
 	width: 100%;
