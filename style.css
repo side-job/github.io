@@ -1,3 +1,5 @@
+
+
 @charset="utf-8"
 
 body {
@@ -98,7 +100,7 @@ body {
 	width: 1em;
 	height: 1em;
 	background: url("https://github.com/side-job/github.io/blob/master/%E7%94%BB%E5%83%8F/mark_check_illust_1104.png?raw=true
-") no-repeat;/*画像はこちらです*/
+") no-repeat; /*画像はこちらです*/
 	background-size: contain;
 }
 
