@@ -280,8 +280,8 @@
     	line-height: 1.5em;
     }
     .content-container {
-    	width: 80%;
-    	margin: 0 auto;
+    	width: 96%;
+    	margin: 2 auto;
     }
 
     .main-container p {
@@ -297,6 +297,10 @@
     .main-container img {
     	width: 30%;
     	margin: 0 auto;
+    }
+    .primary-wrapper {
+    	width: 96%;
+    	margin: 2 auto;
     }
     .primary-wrapper p {
         font-size: 15px;
@@ -323,6 +327,14 @@
     }
     .secondary-container h3 {
         font-size: 20px;
+    }
+    .secondary-wrapper {
+    	width: 96%;
+    	margin: 0 auto;
+    } 
+    .secondary-container {
+    	width: 96%;
+    	margin: 2 auto;
     }
     .secondary-container p {
      	font-size: 15px;
@@ -392,6 +404,10 @@
     	margin-right: 5%;
     	margin-left:  5%;
     }
+    .form-text {
+    	width: 100%;
+
+    }
     .contact-form .item input[type=submit] {
     	width: 80%;
     }
@@ -400,6 +416,10 @@
     .contact-form .item textarea {
     	width: 80%;
     }
+   .summry-wrapper {
+   	  width: 96%;
+   	  margin: 0 auto;
+   }
    .summry-container p {
         font-size: 16px;
     	line-height: 1.5em;
