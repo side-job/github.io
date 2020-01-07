@@ -1,5 +1,3 @@
-
-
 @charset="utf-8"
 
 body {
@@ -99,7 +97,7 @@ body {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background: url("https://github.com/side-job/github.io/blob/master/%E7%94%BB%E5%83%8F/mark_check_illust_1104.png?raw=true") no-repeat; /*画像はこちらです*/
+	background: url("mark_check_illust_1104.png") no-repeat;/*画像はこちらです*/
 	background-size: contain;
 }
 
@@ -119,8 +117,15 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+.primary-text p {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
 .primary p {
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 
 }
 .primary-container ul {
@@ -141,6 +146,11 @@ body {
 .content-container {
 	width: 60%;
 	margin: 0 auto;
+}
+.content-container p {
+	display: inline-block;
+	text-align: left;
+
 }
 
 .secondary-wrapper {
@@ -170,7 +180,7 @@ body {
 
 }
 .top-wrapper {
-	background-image: url("https://github.com/side-job/github.io/blob/master/%E7%94%BB%E5%83%8F/image(8).jpg?raw=true");/*画像はこちらです*/
+	background-image: url("image(8).jpg");/*画像はこちらです*/
 	background-size: cover;
 	height: auto;
 	width: 100%;
@@ -244,7 +254,7 @@ body {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
-	background: url("https://github.com/side-job/github.io/blob/master/%E7%94%BB%E5%83%8F/mark_check_illust_1104.png?raw=true") no-repeat;/*画像はこちらです*/
+	background: url("mark_check_illust_1104.png") no-repeat;/*画像はこちらです*/
 	background-size: contain;
 }
 .content-wrapper span {
@@ -257,7 +267,7 @@ body {
 
 }
 .content-wrapper {
-	text-align: left;
+	text-align: center;
 	height: auto;
 	padding-top: 30px;
 	margin-bottom: 0px;
@@ -332,6 +342,7 @@ body {
 	display: inline-block;
 	border: 1px solid rgba(174,168,171,0.1);
 	border-radius: 5px;
+	text-align: left;
 
 }
 .form-text span {
@@ -491,14 +502,15 @@ font-weight: bold;
 }
 .summry-containers p {
 	margin-top: 0;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	line-height: 60px;
 }
 .summry-container p {
-	margin-bottom: 0;
-	line-height: 60px;
+	margin-bottom: 70px;
+	line-height: 50px;
 	display: inline-block;
 	text-align: left;
+	margin-top:50px;
 }
 .summry-containers span{
 	color: red;
